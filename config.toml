@@ -1,0 +1,121 @@
+#[sentry]
+#dsn = "http://921a5c80a7534b1ba867467382a7bce1@172.22.96.150:9000/2"
+#environment = "develop"
+
+#[input]
+#url = "opc.tcp://jgeysens-spiro:4334/"
+#username = ""
+#password = ""
+#secureConnection = false
+#certificateFile = "certificates/uaservercpp.crt"
+#privateKeyFile = "certificates/uaservercpp.pem"
+#failoverTimeout = 1
+#useSourceTimeStamp = false # Use the timestamp that opc assigned to the source, if false,
+#type = "opcua"
+
+[input]
+url = "mqtt://jgeysens-spiro:8883"
+username = ""
+password = ""
+failoverTimeout = 5
+type = "mqtt"
+topicPrefix = ""
+qos = 0
+
+key = "/home/joris/mosquitto_cert/client2.key"
+cert = "/home/joris/mosquitto_cert/client2.crt"
+ca = "/home/joris/mosquitto_cert/ca.crt"
+rejectUnauthorized = true
+
+[output]
+name = "influx"
+database = "spiro"
+writeMaxPoints = 2000
+host = "172.22.70.35"
+writeInterval = 1000 # milliseconds
+bufferMaxSize = 5000
+username = "spiro"
+password = "spiro"
+type = "influxdb"
+port = 8086
+reportIntervalSeconds = 2
+dropOnFailWrite = false # if true, donot attempt to write values again which failed the first time
+protocol = "https"
+
+[output.RequestOptions]
+    rejectUnauthorized = true
+    cert = "/home/joris/mosquitto_cert/client2.crt"
+    ca = "/home/joris/mosquitto_cert/ca.crt"
+    key = "/home/joris/mosquitto_cert/client2.key"
+
+#[output]
+#url = "mqtt://localhost:1883"
+#username = ""
+#password = ""
+#failoverTimeout = 5
+#type = "mqtt"
+#topicPrefix = "test2"
+#name = "mqtt"
+#qos = 0
+#bufferMaxSize = 20
+#dropOnFailWrite = false # if true, donot attempt to write values again which failed the first time
+#reportIntervalSeconds = 1
+
+#[output]
+#url = "opc.tcp://172.22.209.24:4840"
+#bufferMaxSize = 20
+#username = ""
+#password = ""
+#secureConnection = false
+#failoverTimeout = 5
+#type = "opcua"
+#name = "opcua"
+#dropOnFailWrite = true # if true, donot attempt to write values again which failed the first time
+
+[[measurements]]
+collectionType = "polled"
+monitorResolution = 1000
+name = "Airco1"
+dataType = "number"
+pollRate = 60
+[measurements.tags]
+application = "node-connect-demo"
+Type = "PID"
+[[measurements.link]]
+
+in_mqtt = "mpc/apps/nltest/1"
+out_opcua = "ns=4;s=|var|CODESYS Control Win V3.PidSim10x.PID_Ex.rRandom"
+out_influx = "test_mqtt_certificates"
+
+#[[measurements.link]]
+#in_opcua = "ns=1;s=Airco.Temperature"
+#in_mqtt = "mpc/apps/nltest/2"
+#out_opcua = "ns=1;s=Airco.Temperature"
+#out_influx = "temperature"
+#out_mqtt = "temperature"
+#calc = 'value<0?0:value'
+#
+#
+#
+#[[measurements]]
+#collectionType = "monitored"
+#monitorResolution = 1000
+#name = "Airco1"
+#dataType = "number"
+#pollRate = 60
+#[measurements.tags]
+#application = "node-connect-demo"
+#Type = "PID"
+#[[measurements.link]]
+#in_opcua = "ns=1;s=Airco.Humidity"
+#in_mqtt = "mpc/apps/nltest/3"
+#out_opcua = "ns=1;s=Airco.Humidity"
+#out_influx = "humidity2"
+#out_mqtt = "humidity"
+#[[measurements.link]]
+#in_opcua = "ns=1;s=Airco.Temperature"
+#in_mqtt = "mpc/apps/nltest/4"
+#out_opcua = "ns=1;s=Airco.Temperature"
+#out_influx = "temperature2"
+#out_mqtt = "temperature"
+#calc = 'value<0?0:value'

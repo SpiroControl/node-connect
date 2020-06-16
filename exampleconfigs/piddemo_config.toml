@@ -1,0 +1,9827 @@
+[[measurements]]
+dataType = "number"
+name = "LIC2403"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "LIC2403"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "LIC2403"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "AIC5301"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "AIC5301"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "AIC5301"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "TIC4257"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "TIC4257"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "TIC4257"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "AIC5501"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "AIC5501"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "AIC5501"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "LIC2494A"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "LIC2494A"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "LIC2494A"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "LIC2594A"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "LIC2594A"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "LIC2594A"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "PIC3655"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "PIC3655"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "PIC3655"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "TIC4457"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "TIC4457"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "TIC4457"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "TIC4557"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "TIC4557"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "TIC4557"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "LIC2403_1"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "LIC2403_1"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "LIC2403_1"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "AIC5301_1"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "AIC5301_1"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "AIC5301_1"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "TIC4257_1"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "TIC4257_1"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "TIC4257_1"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "AIC5501_1"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "AIC5501_1"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "AIC5501_1"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "LIC2494A_1"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "LIC2494A_1"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "LIC2494A_1"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "LIC2594A_1"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "LIC2594A_1"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "LIC2594A_1"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "PIC3655_1"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "PIC3655_1"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "PIC3655_1"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "TIC4457_1"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "TIC4457_1"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "TIC4457_1"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "TIC4557_1"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "TIC4557_1"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "TIC4557_1"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "LIC2403_2"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "LIC2403_2"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "LIC2403_2"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "AIC5301_2"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "AIC5301_2"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "AIC5301_2"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "TIC4257_2"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "TIC4257_2"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "TIC4257_2"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "AIC5501_2"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "AIC5501_2"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "AIC5501_2"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "LIC2494A_2"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "LIC2494A_2"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "LIC2494A_2"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "LIC2594A_2"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "LIC2594A_2"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "LIC2594A_2"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "PIC3655_2"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "PIC3655_2"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "PIC3655_2"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "TIC4457_2"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "TIC4457_2"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "TIC4457_2"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "TIC4557_2"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "TIC4557_2"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "TIC4557_2"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "LIC2403_3"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "LIC2403_3"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "LIC2403_3"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "AIC5301_3"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "AIC5301_3"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "AIC5301_3"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "TIC4257_3"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "TIC4257_3"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "TIC4257_3"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "AIC5501_3"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "AIC5501_3"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "AIC5501_3"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "LIC2494A_3"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "LIC2494A_3"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "LIC2494A_3"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "LIC2594A_3"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "LIC2594A_3"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "LIC2594A_3"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "PIC3655_3"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "PIC3655_3"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "PIC3655_3"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "TIC4457_3"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "TIC4457_3"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "TIC4457_3"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "TIC4557_3"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "TIC4557_3"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "TIC4557_3"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "LIC2403_4"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "LIC2403_4"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "LIC2403_4"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "AIC5301_4"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "AIC5301_4"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "AIC5301_4"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "TIC4257_4"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "TIC4257_4"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "TIC4257_4"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "AIC5501_4"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "AIC5501_4"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "AIC5501_4"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "LIC2494A_4"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "LIC2494A_4"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "LIC2494A_4"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "LIC2594A_4"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "LIC2594A_4"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "LIC2594A_4"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "PIC3655_4"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "PIC3655_4"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "PIC3655_4"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "TIC4457_4"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "TIC4457_4"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "TIC4457_4"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "TIC4557_4"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "TIC4557_4"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "TIC4557_4"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "LIC2403_5"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "LIC2403_5"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "LIC2403_5"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "AIC5301_5"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "AIC5301_5"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "AIC5301_5"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "TIC4257_5"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "TIC4257_5"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "TIC4257_5"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "AIC5501_5"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "AIC5501_5"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "AIC5501_5"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "LIC2494A_5"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "LIC2494A_5"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "LIC2494A_5"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "LIC2594A_5"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "LIC2594A_5"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "LIC2594A_5"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "PIC3655_5"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "PIC3655_5"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "PIC3655_5"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "TIC4457_5"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "TIC4457_5"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "TIC4457_5"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "TIC4557_5"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "TIC4557_5"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "TIC4557_5"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "LIC2403_6"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "LIC2403_6"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "LIC2403_6"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "AIC5301_6"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "AIC5301_6"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "AIC5301_6"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "TIC4257_6"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "TIC4257_6"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "TIC4257_6"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "AIC5501_6"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "AIC5501_6"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "AIC5501_6"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "LIC2494A_6"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "LIC2494A_6"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "LIC2494A_6"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "LIC2594A_6"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "LIC2594A_6"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "LIC2594A_6"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "PIC3655_6"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "PIC3655_6"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "PIC3655_6"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "TIC4457_6"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "TIC4457_6"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "TIC4457_6"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "TIC4557_6"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "TIC4557_6"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "TIC4557_6"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "LIC2403_7"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "LIC2403_7"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "LIC2403_7"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "AIC5301_7"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "AIC5301_7"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "AIC5301_7"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "TIC4257_7"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "TIC4257_7"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "TIC4257_7"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "AIC5501_7"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "AIC5501_7"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "AIC5501_7"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "LIC2494A_7"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "LIC2494A_7"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "LIC2494A_7"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "LIC2594A_7"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "LIC2594A_7"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "LIC2594A_7"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "PIC3655_7"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "PIC3655_7"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "PIC3655_7"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "TIC4457_7"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "TIC4457_7"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "TIC4457_7"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "TIC4557_7"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "TIC4557_7"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "TIC4557_7"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "LIC2403_8"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "LIC2403_8"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "LIC2403_8"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "AIC5301_8"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "AIC5301_8"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "AIC5301_8"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "TIC4257_8"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "TIC4257_8"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "TIC4257_8"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "AIC5501_8"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "AIC5501_8"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "AIC5501_8"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "LIC2494A_8"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "LIC2494A_8"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "LIC2494A_8"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "LIC2594A_8"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "LIC2594A_8"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "LIC2594A_8"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "PIC3655_8"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "PIC3655_8"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "PIC3655_8"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "TIC4457_8"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "TIC4457_8"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "TIC4457_8"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "TIC4557_8"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "TIC4557_8"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "TIC4557_8"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "LIC2403_9"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "LIC2403_9"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "LIC2403_9"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "AIC5301_9"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "AIC5301_9"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "AIC5301_9"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "TIC4257_9"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "TIC4257_9"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "TIC4257_9"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "AIC5501_9"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "AIC5501_9"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "AIC5501_9"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "LIC2494A_9"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "LIC2494A_9"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "LIC2494A_9"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "LIC2594A_9"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "LIC2594A_9"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "LIC2594A_9"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "PIC3655_9"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "PIC3655_9"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "PIC3655_9"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "TIC4457_9"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "TIC4457_9"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "TIC4457_9"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "TIC4557_9"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "TIC4557_9"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "TIC4557_9"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "LIC2403_10"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "LIC2403_10"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "LIC2403_10"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "AIC5301_10"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "AIC5301_10"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "AIC5301_10"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "TIC4257_10"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "TIC4257_10"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "TIC4257_10"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "AIC5501_10"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "AIC5501_10"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "AIC5501_10"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "LIC2494A_10"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "LIC2494A_10"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "LIC2494A_10"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "LIC2594A_10"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "LIC2594A_10"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "LIC2594A_10"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "PIC3655_10"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "PIC3655_10"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "PIC3655_10"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "TIC4457_10"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "TIC4457_10"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "TIC4457_10"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "number"
+name = "TIC4557_10"
+[[measurements.link]]
+in_mqtt = "in/SP"
+out_influx = "SP"
+
+[[measurements.link]]
+in_mqtt = "in/PV"
+out_influx = "PV"
+
+[[measurements.link]]
+in_mqtt = "in/OP"
+out_influx = "OP"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitL"
+out_influx = "OPLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/OPLimitH"
+out_influx = "OPLimitH"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitL"
+out_influx = "PVLimitL"
+
+[[measurements.link]]
+in_mqtt = "in/PVLimitH"
+out_influx = "PVLimitH"
+
+[[measurements.link]]
+in_mqtt = "out/HarrisIndex"
+out_influx = "HarrisIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OscillationIndex"
+out_influx = "OscillationIndex"
+
+[[measurements.link]]
+in_mqtt = "out/AutoManIndex"
+out_influx = "AutoManIndex"
+
+[[measurements.link]]
+in_mqtt = "out/InterventionCount"
+out_influx = "InterventionCount"
+
+[[measurements.link]]
+in_mqtt = "out/OPDeltaIndex"
+out_influx = "OPDeltaIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPLimitIndex"
+out_influx = "OPLimitIndex"
+
+[[measurements.link]]
+in_mqtt = "out/StdControlErr"
+out_influx = "StdControlErr"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmCount"
+out_influx = "AlarmCount"
+
+[[measurements.link]]
+in_mqtt = "out/AlarmIndex"
+out_influx = "AlarmIndex"
+
+[[measurements.link]]
+in_mqtt = "out/OPCumsum"
+out_influx = "OPCumsum"
+
+[[measurements.link]]
+in_mqtt = "out/EstimateError"
+out_influx = "ModelEstimateErr"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "string"
+name = "TIC4557_10"
+[[measurements.link]]
+in_mqtt = "out/Arx"
+out_influx = "arxCL"
+
+
+[measurements.tags]
+Type = "PID"
+[[measurements]]
+dataType = "boolean"
+name = "TIC4557_10"
+[[measurements.link]]
+in_mqtt = "in/xAuto"
+calc = "value==0?false:true"
+out_influx = "xAuto"
+
+
+[measurements.tags]
+Type = "PID"
+
+[input]
+username = ""
+qos = 0
+name = "mqtt"
+url = "mqtt://172.22.141.205:1883"
+writeInterval = 1000
+topic = "PID/App1"
+failoverTimeout = 5
+bufferMaxSize = 5000
+password = ""
+type = "mqtt"
+
+
+[output]
+username = ""
+name = "influx"
+database = "PidDemo"
+host = "172.22.59.123"
+writeMaxPoints = 10000
+writeInterval = 5000
+bufferMaxSize = 20000
+password = ""
+type = "influxdb"
+port = 8086
+protocol = "http"

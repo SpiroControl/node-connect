@@ -1,0 +1,56 @@
+
+[input]
+url = "opc.tcp://localhost:4334/SpiroNodeTest"
+username = ""
+password = ""
+secureConnection = false
+certificateFile = ""
+privateKeyFile = ""
+failoverTimeout = 1
+useSourceTimeStamp = false
+type = "opcua"
+
+[input.OPCUA_ClientSettings]
+    keepSessionAlive = false
+    endpoint_must_exist = false
+    requestedSessionTimeout = 60000  # timeout in ms, one minute
+
+[input.OPCUA_ClientSettings.connectionStrategy]
+     maxRetry = 1 # 1 retry attempt
+     initialDelay = 500 # in milliseconds
+     maxDelay = 1000 # in milliseconds
+
+[input.OPCUA_ClientSubscriptionOptions]
+     requestedPublishingInterval = 0
+     requestedLifetimeCount = 100
+     requestedMaxKeepAliveCount = 10
+     maxNotificationsPerPublish = 0
+     publishingEnabled = true
+     priority = 0
+
+[output]
+url = "opc.tcp://localhost:4334/SpiroNodeTest"
+username = ""
+password = ""
+secureConnection = false
+failoverTimeout = 1
+type = "opcua"
+name = "opcua"
+bufferMaxSize = 250
+dropOnFailWrite = false # if true, donot attempt to write values again which failed the first time
+
+[[measurements]]
+collectionType = "polled"
+name = "Airco1"
+dataType = "number"
+pollRate = 60
+[measurements.tags]
+application = "node-connect-demo"
+
+[[measurements.link]]
+in_opcua = "ns=1;s=Airco.Humidity"
+out_opcua = "ns=1;s=Airco.Humidity_Out"
+
+[[measurements.link]]
+in_opcua = "ns=1;s=Airco.Temperature"
+out_opcua = "ns=1;s=Airco.Temperature_Out"

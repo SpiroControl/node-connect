@@ -1,0 +1,57 @@
+
+[input]
+url = "opc.tcp://localhost:4334/SpiroNodeTest"
+username = ""
+password = ""
+secureConnection = false
+certificateFile = ""
+privateKeyFile = ""
+failoverTimeout = 5
+useSourceTimeStamp = false
+type = "opcua"
+
+[output]
+protocol = "http"
+name = "influx"
+database = "spiro"
+writeMaxPoints = 2000
+host = "influxdb"
+failoverTimeout = 10000
+writeInterval = 1000
+bufferMaxSize = 2000
+username = ""
+password = ""
+type = "influxdb"
+port = 8086
+dropOnFailWrite = false # if true, donot attempt to write values again which failed the first time
+
+[[measurements]]
+collectionType = "polled"
+name = "Airco1"
+dataType = "number"
+pollRate = 60
+[measurements.tags]
+application = "node-connect-demo"
+[[measurements.link]]
+in_opcua = "ns=1;s=Airco.Humidity"
+out_influx = "humidity"
+[[measurements.link]]
+in_opcua = "ns=1;s=Airco.Temperature"
+out_influx = "temperature"
+calc = 'value<0?0:value'
+
+
+[[measurements]]
+collectionType = "polled"
+name = "Airco1"
+dataType = "number"
+pollRate = 7
+[measurements.tags]
+application = "node-connect-demo"
+[[measurements.link]]
+in_opcua = "ns=1;s=Airco.Humidity"
+out_influx = "humidity2"
+[[measurements.link]]
+in_opcua = "ns=1;s=Airco.Temperature"
+out_influx = "temperature2"
+calc = 'value<0?0:value'

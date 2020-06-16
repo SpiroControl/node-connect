@@ -1,0 +1,98 @@
+
+[input]
+name = "opcua"
+type = "opcua"
+bufferMaxSize = 1500
+writeInterval = 1000
+url = "opc.tcp://172.22.209.24:4840"
+username = ""
+password = ""
+secureConnection = false
+failoverTimeout = 1
+
+[input.OPCUA_ClientSettings]
+    keepSessionAlive = true
+    endpoint_must_exist = false
+    requestedSessionTimeout = 3600000  # timeout in ms, one hour
+
+[input.OPCUA_ClientSettings.connectionStrategy]
+     maxRetry = -1 # infinite retry attemps
+     initialDelay = 1000 # in milliseconds
+     maxDelay = 10000 # in milliseconds
+
+[input.OPCUA_ClientSubscriptionOptions]
+     requestedPublishingInterval = 0
+     requestedLifetimeCount = 100
+     requestedMaxKeepAliveCount = 10
+     maxNotificationsPerPublish = 0
+     publishingEnabled = true
+     priority = 0
+
+[output]
+name = "mqtt"
+bufferMaxSize = 1000
+writeInterval = 1000
+username = ""
+password = ""
+url = "mqtt://localhost:1883"
+host = "localhost"
+qos = 0
+topicPrefix = ""
+type = "mqtt"
+failoverTimeout = 1
+
+
+[[measurements]]
+name = "uProcess"
+dataType = "number"
+collectionType = "polled"
+monitorResolution = 1000
+pollRate = 60
+
+[[measurements.link]]
+in_opcua = "ns=4;s=|var|CODESYS Control Win V3 x64.sim_D742.sim1.simdat2.mvs[0].SimProcess"
+out_mqtt = "mpc/mvs/TIC74224SV/uProcess"
+[[measurements.link]]
+in_opcua = "ns=4;s=|var|CODESYS Control Win V3 x64.sim_D742.sim1.simdat2.mvs[1].SimProcess"
+out_mqtt = "mpc/mvs/FIC74232SV/uProcess"
+[[measurements.link]]
+in_opcua = "ns=4;s=|var|CODESYS Control Win V3 x64.sim_D742.sim1.simdat2.mvs[2].SimProcess"
+out_mqtt = "mpc/mvs/FIC74231SV/uProcess"
+[[measurements.link]]
+in_opcua = "ns=4;s=|var|CODESYS Control Win V3 x64.sim_D742.sim1.simdat2.mvs[3].SimProcess"
+out_mqtt = "mpc/mvs/FIC74236SV/uProcess"
+[[measurements.link]]
+in_opcua = "ns=4;s=|var|CODESYS Control Win V3 x64.sim_D742.sim1.simdat2.mvs[4].SimProcess"
+out_mqtt = "mpc/mvs/LIC716365MV/uProcess"
+
+[[measurements]]
+name = "yProcess"
+dataType = "number"
+collectionType = "polled"
+monitorResolution = 1000
+pollRate = 60
+
+[[measurements.link]]
+in_opcua = "ns=4;s=|var|CODESYS Control Win V3 x64.sim_D742.sim1.simdat2.cvs[0].SimProcess"
+out_mqtt = "mpc/cvs/TIC74224PV/yProcess"
+[[measurements.link]]
+in_opcua = "ns=4;s=|var|CODESYS Control Win V3 x64.sim_D742.sim1.simdat2.cvs[1].SimProcess"
+out_mqtt = "mpc/cvs/TI74212PV/yProcess"
+[[measurements.link]]
+in_opcua = "ns=4;s=|var|CODESYS Control Win V3 x64.sim_D742.sim1.simdat2.cvs[2].SimProcess"
+out_mqtt = "mpc/cvs/PDI74252PV/yProcess"
+[[measurements.link]]
+in_opcua = "ns=4;s=|var|CODESYS Control Win V3 x64.sim_D742.sim1.simdat2.cvs[3].SimProcess"
+out_mqtt = "mpc/cvs/LIC74231PV/yProcess"
+[[measurements.link]]
+in_opcua = "ns=4;s=|var|CODESYS Control Win V3 x64.sim_D742.sim1.simdat2.cvs[4].SimProcess"
+out_mqtt = "mpc/cvs/TDY74210PV/yProcess"
+[[measurements.link]]
+in_opcua = "ns=4;s=|var|CODESYS Control Win V3 x64.sim_D742.sim1.simdat2.cvs[5].SimProcess"
+out_mqtt = "mpc/cvs/AI74290PV/yProcess"
+[[measurements.link]]
+in_opcua = "ns=4;s=|var|CODESYS Control Win V3 x64.sim_D742.sim1.simdat2.cvs[6].SimProcess"
+out_mqtt = "mpc/cvs/PIC74258MV/yProcess"
+[[measurements.link]]
+in_opcua = "ns=4;s=|var|CODESYS Control Win V3 x64.sim_D742.sim1.simdat2.cvs[7].SimProcess"
+out_mqtt = "mpc/cvs/FF74232PV/yProcess"

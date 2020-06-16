@@ -1,0 +1,41 @@
+# install and test nodelogger on circleci
+version: 2.1
+jobs:
+    build:
+        docker: 
+          - image: node:12-buster
+
+          - image: influxdb:1.7
+            name: influxdb
+            environment:
+              INFLUXDB_REPORTING_DISABLED: "True"
+              INFLUXDB_DATA_QUERY_LOG_ENABLED: "False"
+
+          - image: eclipse-mosquitto
+            name: mosquitto
+
+        steps:
+          - checkout
+          - restore_cache:
+              keys:
+                # when lock file changes, use increasingly general patterns to restore cache
+                - node-v1-{{ .Branch }}-{{ checksum "package-lock.json" }}
+                - node-v1-{{ .Branch }}-
+                - node-v1-
+          - run:
+              name: Install npm dependencies
+              command: npm install
+          - save_cache:
+              paths:
+                - ./node_modules
+              key: node-v1-{{ .Branch }}-{{ checksum "package-lock.json" }} 
+          - run:
+              name: Validate code with ESLint
+              command: npm run validate
+          - run:
+              name: Run unit tests
+              command: |
+                  mkdir -p test-reports/mocha
+                  npm test
+          - store_test_results:
+              path: test-reports

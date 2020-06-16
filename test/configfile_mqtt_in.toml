@@ -1,0 +1,39 @@
+
+[input]
+url = "mqtt://mosquitto:1883"
+username = ""
+password = ""
+failoverTimeout = 5
+type = "mqtt"
+topicPrefix = "mqtttest/testtopic/"
+qos = 0
+
+[output]
+url = "mqtt://mosquitto:1883"
+username = ""
+password = ""
+failoverTimeout = 5
+type = "mqtt"
+topicPrefix = "mqtttest/testtopic"
+name = "mqtt"
+bufferMaxSize = 20
+qos = 0
+dropOnFailWrite = false # if true, donot attempt to write values again which failed the first time
+
+[[measurements]]
+name = "Airco1"
+dataType = "number"
+[measurements.tags]
+application = "node-connect-demo"
+[[measurements.link]]
+in_mqtt = "Airco1/in/PV"
+out_mqtt = "PV"
+[[measurements.link]]
+in_mqtt = "Airco1/in/OP"
+out_mqtt = "OP"
+[[measurements.link]]
+in_mqtt = "Airco1/in/SP"
+out_mqtt = "SP"
+[[measurements.link]]
+in_mqtt = "Airco1/out/CV"
+out_mqtt = "CV"

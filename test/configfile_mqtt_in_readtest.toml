@@ -1,0 +1,46 @@
+
+[input]
+url = "mqtt://mosquitto:1883"
+username = ""
+password = ""
+failoverTimeout = 5
+type = "mqtt"
+topicPrefix = "mqtttest/testtopic/"
+qos = 0
+
+[output]
+protocol = "http"
+name = "influx"
+database = "spiro"
+writeMaxPoints = 2000
+host = "influxdb"
+failoverTimeout = 10000
+writeInterval = 1000
+bufferMaxSize = 2000
+username = ""
+password = ""
+type = "influxdb"
+port = 8086
+dropOnFailWrite = false # if true, donot attempt to write values again which failed the first time
+
+[[measurements]]
+name = "Airco1"
+dataType = "number"
+[measurements.tags]
+application = "node-connect-demo"
+[[measurements.link]]
+in_mqtt = "Airco1/in/PV"
+out_influx = "PV"
+[[measurements.link]]
+in_mqtt = "Airco1/in/OP"
+out_influx = "OP"
+[[measurements.link]]
+in_mqtt = "Airco1/in/SP"
+out_influx = "SP"
+[[measurements.link]]
+in_mqtt = "Airco1/out/CV"
+out_influx = "CV"
+[[measurements.link]]
+in_mqtt = "Airco1/out/CV2"
+out_influx = "CVCalcClip"
+calc = "value>10?10:value"

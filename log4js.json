@@ -1,0 +1,18 @@
+{
+  "appenders": {
+    "file_main": {"type": "file", "filename": "log/main.log", "maxLogSize": 10485760, "numBackups": 10},
+    "file_readpump": {"type": "file", "filename": "log/readpump.log", "maxLogSize": 10485760, "numBackups": 10},
+    "file_writepump": {"type": "file", "filename": "log/writepump.log", "maxLogSize": 10485760, "numBackups": 10},
+    "console": {"type": "stdout"},
+    "consoleFilter": { "type": "logLevelFilter", "appender": "console", "level": "INFO" },
+    "mainfileFilter": { "type": "logLevelFilter", "appender": "file_main", "level": "DEBUG" },
+    "readpumpfileFilter": { "type": "logLevelFilter", "appender": "file_readpump", "level": "DEBUG" },
+    "writepumpfileFilter": { "type": "logLevelFilter", "appender": "file_writepump", "level": "DEBUG" }
+  },
+  "categories": {
+    "main": {"appenders": [ "mainfileFilter", "consoleFilter"], "level": "DEBUG"},
+    "WritePump": {"appenders": [ "writepumpfileFilter", "consoleFilter"], "level": "DEBUG"},
+    "ReadPump": {"appenders": [ "readpumpfileFilter", "consoleFilter"], "level": "DEBUG"},
+    "default": {"appenders": [ "file_main", "console"], "level": "DEBUG"}
+  }
+}

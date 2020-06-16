@@ -1,0 +1,6 @@
+{
+  "ext": "toml",
+  "legacyWatch": true,
+  "pollingInterval": 1000,
+  "verbose": true
+}

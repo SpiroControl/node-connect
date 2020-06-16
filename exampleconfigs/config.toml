@@ -1,0 +1,32 @@
+[input]
+url = "opc.tcp://localhost:4334/UA/MyLittleServer"
+username = "root"
+password = "secret"
+secureConnection = false
+failoverTimeout = 5
+type = "opcua"
+
+[output]
+name                 = "influx"      # connection name
+type                 = "influxdb"
+database             = "logger_test"    # database name
+protocol             = "http"
+host                 = "localhost"   # 127.0.0.1
+port                 = 8086
+username             = ""   
+password             = ""
+writeMaxPoints       = 1000          # Max point per POST request
+failoverTimeout      = 10000         # time to wait before reconnection in case of failure
+writeInterval        = 3000          # Interval of batch writes
+bufferMaxSize        = 64            # MB
+dropOnFailWrite      = false
+
+[[measurements]]
+collectionType       = "monitored" 
+monitorResolution    = 2000          # ms, especially useful when sampling time > 1 minute
+name                 = "ac1"
+dataType             = "number"
+calc                 = 'value<0?0:value'
+[[measurements.link]]
+in_opcua = "ns=1;s=Airco.Humidity"
+out_influx = "humidity"
