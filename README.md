@@ -1,50 +1,50 @@
 # node-connect
 
 This application transmits data from a source to a destination. A simple file in toml format can be used to configure the entire application with
-multiple point to point connections. Each point can have a basic value type of Real, Int, String or Bool
+multiple point to point connections. Each point can have a basic value type of Real, Int, String or Bool.
 
-The data is buffered locally to a file based database so that if the destination is temporarily unavailable, the data is not lost
+The data is buffered locally to a file based database so that, if the destination is temporarily unavailable, the data is not lost.
 
 We support the following input connections or "readers": 
 
 - mqtt
 - opcua
 
-and the following writers :
+and the following writers:
 
 - influx
 - mqtt
 - opcua
 
-Brought to you by [Spiro](http://www.spirocontrol.com "Spiro Control homepage")
+Brought to you by [Spiro](http://www.spirocontrol.com/?utm_source=github&utm_medium=social&utm_campaign=node_connect_launch "Spiro Control homepage")
 
 # Build
 
-We package the nodelogger application as a docker image. A dockerfile is present in the repository root that is used to build
+We package the node-connect application as a docker image. A dockerfile is present in the repository root that is used to build
 the image.
 
-The referenced docker hub base image used in the Dockerfile is `node:12-buster`
+The referenced docker hub base image used in the Dockerfile is `node:12-buster`.
 
 The NodeJS version used at the moment is the current *LTS* version `12` (on debian buster) with and end-of-life date of 2022-04-30.
-More info on https://nodejs.org/en/about/releases/
+More info on https://nodejs.org/en/about/releases/.
 
 # Installation
 
 ## Docker
 
-You can use the docker image  `spirocontrol/node-connect` with one of the following tags :
+You can use the docker image  `spirocontrol/node-connect` with one of the following tags:
 
 - `spirocontrol/node-connect:develop` : built from `develop` branch
-- `spirocontrol/node-connect:x.x.x` : tagged from tag `x.x.x` in git. Should be used for production install
-- `spirocontrol/node-connect:latest` : built from `master` branch.  Only stable releases should be built on master
+- `spirocontrol/node-connect:x.x.x` : tagged from tag `x.x.x` in git. Should be used for production install.
+- `spirocontrol/node-connect:latest` : built from `master` branch.  Only stable releases should be built on master.
 
-Prepare a configuration file as described below in a folder. It should be named `config.toml`.  Mount the folder while starting the
+Prepare a configuration file in a folder as described below. It should be named `config.toml`. Mount the folder while starting the
 docker container
 
 `docker run -d -v /path/to/config:/home/node/app/configfile spirocontrol/node-connect`
 
-node-connect will run in monitored mode which means changing the config.toml and saving it will immediately take
-effect
+node-connect will run in monitored mode, which means that saved changes to config.toml will take
+effect immediately.
 
 ## From source
 
@@ -56,12 +56,12 @@ effect
 # Dependencies
 
 Most dependencies fix major and minor version number but allow freedom to update to the latest patch version.
-Done by specifying version as in `~12.5.0` which will allow any patch upgrade : `>= 12.5.0` and `< 12.6.0`.
+This is done by specifying versions with the format `~12.5.0`, which will allow any patch upgrade : `>= 12.5.0` and `< 12.6.0`.
 See https://github.com/npm/node-semver for more info.
 
 # Configuration file
 
-The configuration file can contain the following components : 
+The configuration file can contain the following components: 
 
 Optional
 - sentry configuration
@@ -75,7 +75,7 @@ These section will be described in the following chapters.
 
 ## Sentry
 
-To use sentry, add the following section to the configuration file.  Remove the section to disble sentry integration.
+To use sentry, add the following section to the configuration file. Remove the section to disble sentry integration.
 
 ```toml
 [sentry]
@@ -120,7 +120,7 @@ failoverTimeout = 5 # time to wait (in seconds) before reconnection in case of f
 
 #### OPCUA ClientSettings
 
-These are optional settings in case there is an OPCUA input defined.
+These are optional settings in the case where an OPCUA input defined.
 
 ``` toml
 [input.OPCUA_ClientSettings]
@@ -208,7 +208,7 @@ zero.
 
 ### Common output settings
 
-```reportIntervalSeconds``` Set the interval (seconds) as to when the WritePump should report the number of items written per write and average number of items per second. .
+```reportIntervalSeconds``` Set the interval (seconds) as to when the WritePump should report the number of items written per write and average number of items per second.
 
 ```writeMaxPoints``` Maximum number of items to write in one write cycle.
 
@@ -246,7 +246,7 @@ retentionPolicy="one_year"  # influx retention policy to write to
 
 #### Influx over https
 
- Add these settings to the above settings : 
+ Add these settings to the above settings: 
 ```toml
 protocol = "https"
 
@@ -278,7 +278,7 @@ dropOnFailWrite = true  # if true then dont try to write again if write failed o
 
 #### Mqtt output with certificates
 
-Add the following settings to the default mqtt output settings.
+Add the following settings to the default mqtt output settings:
 ```toml
 key = "/home/joris/mosquitto_cert/client2.key"
 cert = "/home/joris/mosquitto_cert/client2.crt"
@@ -329,14 +329,14 @@ certificateFile = "certificates/uaservercpp.crt"
 privateKeyFile = "certificates/uaservercpp.pem"
 ```
 
-##### Note : defaults 
-Security set to security mode ```MessageSecurityMode.SignAndEncrypt``` and the security policy set to ```SecurityPolicy.Basic256```.
+##### Note: defaults 
+Security is set to security mode ```MessageSecurityMode.SignAndEncrypt``` and the security policy is set to ```SecurityPolicy.Basic256```.
 These settings cannot be changed from the configuration file at the moment.
 
 
 # Measurements
 
-For each value you want to log, repeat the following in the config file :
+For each value you want to log, repeat the following in the config file:
 
 ```toml
 # A polled node:
@@ -358,7 +358,7 @@ deadbandAbsolute   = 0 		# Absolute max difference for a value not to be collect
 deadbandRelative   = 0    	# Relative max difference for a value not to be collected
 ```
 
-`monitorResolution` : in OPCUA this is translated into the MonitoringParameter `samplingInterval`, meaning :
+`monitorResolution` : in OPCUA, this is translated into the MonitoringParameter `samplingInterval`, meaning:
 
 > The interval that defines the fastest rate at which the MonitoredItem(s) should be
 > accessed and evaluated. This interval is defined in milliseconds.
@@ -427,17 +427,17 @@ in_opcua = "ns=4;s=|var|app1.sim_D101.sim1.simdat2.mvs[4].SimProcess"
 out_mqtt = "mpc/mvs/LIC101MV/uProcess"
 ```
 
-# Note : Deprecated settings
+# Note: Deprecated settings
 
 - Using ```debugMode``` has no effect at all on any reader or writer.  Remove it from your config files.
-- Using ```messageLog``` is not used anymore. All logging is configured using the ```log4js.json``` file 
-- ```retryAttempts``` is not used anymore : replaced by the input or output OPCUA ClientSettings
+- Using ```messageLog``` is not used anymore. All logging is configured using the ```log4js.json``` file. 
+- ```retryAttempts``` is not used anymore : replaced by the input or output OPCUA ClientSettings.
 
-# Note : MQTT types
+# Note: MQTT types
 When selecting `Number` for the mqtt measurement link, we are parsing the MQTT message payload as an _ASCII string_
 containing the string representation of an integer or float, using `.` as the decimal point.
 
-It cannot contain :
+It cannot contain:
 
 - spaces
 - comma
